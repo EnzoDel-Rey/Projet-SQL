@@ -11,4 +11,4 @@ WHERE ville = 'Nantes';
 
 -- 4. Afficher les véhicules ayant une autonomie plus grande que 400 km
 SELECT * FROM vehicule
-WHERE autonomie > 400;
+WHERE autonomie_km > 400;

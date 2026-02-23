@@ -1,7 +1,7 @@
 -- 1. Trois véhiucles les plus autonomes disponibles
 SELECT * FROM vehicule
 WHERE etat = 'Disponible'
-ORDER BY autonomie DESC
+ORDER BY autonomie_km DESC
 LIMIT 3;
 
 -- 2. Villes avec le plus de véhicules disponibles

@@ -1,6 +1,6 @@
 -- 1. Trier par autonomie décroissante
 SELECT * FROM vehicule
-ORDER BY autonomie DESC;
+ORDER BY autonomie_km DESC;
 
 -- 2. Véhicules disponibles triés par ville puis marque
 SELECT * FROM vehicule

@@ -7,7 +7,7 @@ FROM vehicule
 GROUP BY ville;
 
 -- 3. Autonomie moyenne
-SELECT AVG(autonomie)
+SELECT AVG(autonomie_km)
 FROM vehicule;
 
 -- 4. Nombre de locations par client
