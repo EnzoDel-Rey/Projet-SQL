@@ -8,10 +8,10 @@ LIMIT 3;
 
 -- 2. Ville avec le plus de véhicules disponibles
 
-SELECT ville, COUNT(*) AS nombres_vehicules
+SELECT localisation, COUNT(*) AS nombres_vehicules
 FROM vehicule
 WHERE etat = 'Disponible'
-GROUP BY ville
+GROUP BY localisation
 ORDER BY nombres_vehicules DESC
 LIMIT 1;
 
