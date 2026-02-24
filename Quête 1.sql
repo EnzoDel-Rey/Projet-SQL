@@ -7,7 +7,7 @@ WHERE etat = 'Disponible';
 
 -- 3. Afficher les véhicules situés à Nantes
 SELECT * FROM vehicule
-WHERE ville = 'Nantes';
+WHERE localisation = 'Nantes';
 
 -- 4. Afficher les véhicules ayant une autonomie plus grande que 400 km
 SELECT * FROM vehicule
