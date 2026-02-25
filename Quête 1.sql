@@ -1,14 +1,18 @@
 -- 1. Afficher tous les véhicules
-SELECT * FROM vehicule;
+SELECT *
+FROM vehicule;
 
--- 2. Afficher les véhicules disponibles
-SELECT * FROM vehicule
-WHERE etat = 'Disponible';
+-- 2. Afficher uniquement les véhicules disponibles
+SELECT *
+FROM vehicule
+WHERE etat = 'disponible';
 
--- 3. Afficher les véhicules situés à Nantes
-SELECT * FROM vehicule
-WHERE ville = 'Nantes';
+-- 3. Afficher les véhicules situés dans une ville donnée
+SELECT *
+FROM vehicule
+WHERE ville = 'Nantes';   -- changer la ville si besoin
 
--- 4. Afficher les véhicules ayant une autonomie plus grande que 400 km
-SELECT * FROM vehicule
+-- 4. Afficher les véhicules ayant une autonomie supérieure à 400 km
+SELECT *
+FROM vehicule
 WHERE autonomie_km > 400;
