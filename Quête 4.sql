@@ -12,5 +12,5 @@ FROM vehicule;
 
 -- 4. Nombre de locations par client
 SELECT id_client, COUNT(*)
-FROM location
+FROM ville
 GROUP BY id_client;
