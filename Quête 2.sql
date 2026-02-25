@@ -6,7 +6,7 @@ ORDER BY autonomie_km DESC;
 -- 2. Afficher les véhicules disponibles triés par ville puis par marque
 SELECT *
 FROM vehicule
-WHERE etat = 'disponible'
+WHERE etat = 'Disponible'
 ORDER BY ville ASC, marque ASC;
 
 -- 3. Afficher la liste des clients par ordre alphabétique

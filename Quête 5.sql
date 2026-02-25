@@ -1,14 +1,14 @@
 -- 1. Afficher les trois véhicules disponibles les plus autonomes
 SELECT *
 FROM vehicule
-WHERE etat = 'disponible'
+WHERE etat = 'Disponible'
 ORDER BY autonomie_km DESC
 LIMIT 3;
 
 -- 2. Afficher la ville possédant le plus de véhicules disponibles
 SELECT ville, COUNT(*) AS nb_disponibles
 FROM vehicule
-WHERE etat = 'disponible'
+WHERE etat = 'Disponible'
 GROUP BY ville
 ORDER BY nb_disponibles DESC
 LIMIT 1;
